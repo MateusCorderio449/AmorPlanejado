@@ -1,0 +1,65 @@
+.cordefundo1{
+    background-color: rgba(255,203,252,1.00);
+}
+
+.cordefundo2{
+    background-color:rgba(244,255,218,1.00);
+}
+.cordefundo3{
+color: black;
+}
+.cortextoclasse {
+  margin-bottom: 2rem;             /* mb-8 */
+  font-size: 1.125rem;             /* text-lg */
+  font-weight: 400;                /* font-normal */
+  color: #000000;                  /* text-gray-500 */
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Padding para sm (≥640px) */
+@media (min-width: 640px) {
+  .cortexto {
+    padding-left: 4rem;            /* px-16 */
+    padding-right: 4rem;
+  }
+}
+
+/* Font size para lg (≥1024px) */
+@media (min-width: 1024px) {
+  .cortexto {
+    font-size: 1.25rem;            /* text-xl */
+  }
+}
+
+/* Padding para xl (≥1280px) */
+@media (min-width: 1280px) {
+  .cortexto {
+    padding-left: 12rem;           /* px-48 */
+    padding-right: 12rem;
+  }
+}
+
+/* Modo dark */
+@media (prefers-color-scheme: dark) {
+  .cortexto {
+    color: #000000;                /* dark:text-gray-400 */
+  }
+}
+
+.minha-classe {
+  color: #000000; /* text-gray-500 */
+  font-size: 1rem; /* tamanho base (pode ajustar) */
+}
+
+@media (min-width: 640px) {
+  .minha-classe {
+    font-size: 1.25rem; /* sm:text-xl */
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .minha-classe {
+    color: #9ca3af; /* dark:text-gray-400 */
+  }
+}
